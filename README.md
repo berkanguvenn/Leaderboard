@@ -1,9 +1,9 @@
 # Leaderboard
 How to use
 POST
-•	Create user:
+	
 
-http://143.198.56.129:4580/user/create          Create user
+http://143.198.56.129:4580/user/create     Create user
 Sending a JSON body:
 {
 	
@@ -16,14 +16,16 @@ Sending a JSON body:
 
 }
 
-http://143.198.56.129:4580/score/submit            Score Submit
-    {
+http://143.198.56.129:4580/score/submit          Score Submit
+
+```json
+{
         "user_id": "8a404936-186b-4042-b9ff-f6f0bb0a118e",
         "timestamp": 1573256745,
         "score_worth": 164638678
     }
 
-
+```
 
 http://143.198.56.129:4580/user/test 
 
@@ -36,6 +38,8 @@ Create Random Gamers
 
 GET
 http://143.198.56.129:4580/leaderboard  Show all user rank 
+```json
+
  
  {
         "display_name": "6e-797a-4201-bf9a-3bd0a75d3e4f",
@@ -73,8 +77,10 @@ http://143.198.56.129:4580/leaderboard  Show all user rank
         "user_id": "238d41f3-3bc5-4cbc-a0a3-e3b58851702b"
     },
 
+```
 
 http://143.198.56.129:4580/leaderboard/en  Show users rank in their country 
+```json
 
 
 {
@@ -106,8 +112,10 @@ http://143.198.56.129:4580/leaderboard/en  Show users rank in their country
         "user_id": "9ac8e7c9-075b-4e53-9d6e-054175ed5274"
     },
 
+```
 
 http://143.198.56.129:4580/user/profile/e684dc6e-797a-4201-bf9a-3bd0a75d3e4f Show user by user_id
+```json
 
   {
     "display_name": "6e-797a-4201-bf9a-3bd0a75d3e4f",
@@ -117,13 +125,14 @@ http://143.198.56.129:4580/user/profile/e684dc6e-797a-4201-bf9a-3bd0a75d3e4f Sho
     "user_id": "e684dc6e-797a-4201-bf9a-3bd0a75d3e4f"
 }
 
-
+```
  
 
 
 
 
 http://143.198.56.129:4580/leaderboard/5/9 show gamers between two ranks 	
+```json
 
 [
     {
@@ -163,8 +172,10 @@ http://143.198.56.129:4580/leaderboard/5/9 show gamers between two ranks
     }
 ]
 
+```
 
 http://143.198.56.129:4580/leaderboard/tr/1/10 show gamers rank in their country top 10
+```json
 
 [
     {
@@ -239,6 +250,7 @@ http://143.198.56.129:4580/leaderboard/tr/1/10 show gamers rank in their country
     }
 ]
 
+```
 
 
 
