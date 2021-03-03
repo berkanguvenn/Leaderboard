@@ -1,0 +1,28 @@
+{
+  "name": "ndoe-js-sqlite",
+  "version": "1.0.0",
+  "description": "Simple NodeJS Rest API with CRUD routes. Using SQLite database",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "babel-node server.js"
+  },
+  "author": "Leonardo Carlesso",
+  "license": "ISC",
+  "dependencies": {
+    "ajv": "^5.0.0",
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "express-joi-validation": "^5.0.0",
+    "ioredis": "^4.23.0",
+    "jayschema": "^0.3.1",
+    "joi": "^17.4.0",
+    "lodash": "^4.17.21",
+    "sqlite": "^2.5.0",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "nodemon": "^1.11.0"
+  }
+}
