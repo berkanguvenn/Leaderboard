@@ -29,7 +29,7 @@ http://143.198.56.129:4580/score/submit          Score Submit
 
 http://143.198.56.129:4580/user/test 
 
-Create Random Gamers
+Create Random Users
 
     {
         "count": 500
@@ -131,7 +131,7 @@ http://143.198.56.129:4580/user/profile/e684dc6e-797a-4201-bf9a-3bd0a75d3e4f Sho
 
 
 
-http://143.198.56.129:4580/leaderboard/5/9 show gamers between two ranks 	
+http://143.198.56.129:4580/leaderboard/5/9 show users between two ranks 	
 ```json
 
 [
@@ -174,7 +174,7 @@ http://143.198.56.129:4580/leaderboard/5/9 show gamers between two ranks
 
 ```
 
-http://143.198.56.129:4580/leaderboard/tr/1/10 show gamers rank in their country top 10
+http://143.198.56.129:4580/leaderboard/tr/1/10 show users rank in their country top 10
 ```json
 
 [
